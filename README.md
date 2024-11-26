@@ -15,3 +15,5 @@
 ## Importante
 
 El proyecto requiere tener instalado docker y docker compose para la instalacion de la BD. Esto para facilitar el desarrollo y en un futuro el despliegue de la aplicacion
+
+Para la persistencia de los mensajes de utiliza la tabla llamada userChats
