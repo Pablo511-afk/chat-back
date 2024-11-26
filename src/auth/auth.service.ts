@@ -14,7 +14,7 @@ import { envs } from 'src/config';
 
 @Injectable()
 export class AuthService extends PrismaClient implements OnModuleInit {
-  private readonly logger = new Logger('Auth microservice');
+  private readonly logger = new Logger('Auth-service');
 
   constructor(private jwtService: JwtService) {
     super();
